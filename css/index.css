@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    display: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+nav img {
+    margin-left: -15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+	transition: 0.8s;
+}
+
+nav a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.top-pic {
+    margin-bottom: 40px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +140,116 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+.about-top-pic {
+    margin-bottom: 40px;
+}
+
+.open-para p {
+    margin-bottom: 40px;
+}
+
+.open-para {
+    border-bottom: 1px dashed black;
+}
+
+.about-cards {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.about-cards .card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 42%;
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.about-cards .card .card-img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about-cards .card h2 {
+    margin-top: 20px;
+}
+
+.about-cards .card p {
+    margin-bottom: 20px;
+}
+
+.about-cards .card btn {
+    margin-bottom: 20px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid black;
+    opacity: 1;
+	transition: 0.8s;
+}
+
+.about-cards .card btn:hover {
+    cursor: pointer;
+    opacity: 0.55;
+}
+
+.about-cards .card .card-img .one {
+    margin-right: 40px;
+}
+
+.about-cards .card p {
+    max-width: 100%;
+}
+
+.page-bottom {
+    margin: 40px 0;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +282,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+
+	.about-cards {
+        display: flex;
+		flex-direction: column;
+    }
+
+    .about-cards h2, img, p {
+        display: flex;
+    }
+
+    .open-para, .close-para {
+        width: 50%;
+    }
+    
+    .logo {
+        display: block;
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        display: inline;
+    }
+
+    nav a {
+        margin-right: 20px;
+    }

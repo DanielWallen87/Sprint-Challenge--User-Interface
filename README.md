@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+HTML controls the basic structure of websites. It contians properties that influence the appearance of the text primarily.
+For example, the <h1> tag means "header #1" and makes that header stand-out as the biggest element on the website. You use
+HTML to describe the type of element. <img> means image and <a> means a link.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block causes an element to take up more space on the screen. Without width and height properties, it will be as wide as the window. Display: inline causes an element to take up less space by stacking elements next to each other.
 
 3. What are the 4 areas of the box model?
 
+1. Content (paragraphs, headers, lists, links, pictures)
+2. Border (used to create boxes or highlight certain elements)
+3. Margin (the space between and/or around elements on the screen)
+4. Padding (the space *inside* an element's border, verus *outside* in the case of margin)
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross axis (vertical or y)
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows people to create separate branches of the same content. I.e. one person could work on the HTML, another on the CSS, and another on the Javascript. The project manager could then merge these branches together to conveniently combine everybody's work into the same file with less odds of making any significant mistakes. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
