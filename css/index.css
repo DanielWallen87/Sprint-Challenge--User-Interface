@@ -133,28 +133,49 @@ nav a {
     justify-content: center;
 }
 
-.middle-content .boxes .box .box1 {
+#box1 {
     background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .about-top-pic {
     margin-bottom: 40px;
 }
-
-/*
-
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
-
-*/
 
 .open-para p {
     margin-bottom: 40px;
@@ -168,6 +189,7 @@ nav a {
     display: flex;
     flex-flow: row wrap;
     margin-top: 40px;
+    justify-content: space-between;
 }
 
 .about-cards .card {
