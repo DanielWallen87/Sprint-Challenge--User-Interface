@@ -229,6 +229,13 @@ nav a:hover {
     width: 90px;
     height: 30px;
     border: 1px solid black;
+    opacity: 1;
+	transition: 0.8s;
+}
+
+.about-cards .card btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .about-cards .card .card-img .one {
@@ -275,3 +282,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+
+	.about-cards {
+        display: flex;
+		flex-direction: column;
+    }
+
+    .about-cards h2, img, p {
+        display: flex;
+    }
+
+    .open-para, .close-para {
+        width: 50%;
+    }
+    
+    .logo {
+        display: block;
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        display: inline;
+    }
+
+    nav a {
+        margin-right: 20px;
+    }
